@@ -1,8 +1,10 @@
 # Real time facial emotion detector from a live video stream
 
-In this project, I have developed a webapp, which can be deployed on your local server, which classifies facial expressions into seven categories of emotions - angry, disgusted, fearful, happy, neutral, sad and surprised. 
+In this project, I have developed a webapp, which can be deployed on your local server, which classifies facial expressions from a live video stream into seven categories of emotions - angry, disgusted, fearful, happy, neutral, sad and surprised. 
 
 The CNN model is trained on the **FER-2013 dataset**, which consists of 35887 grayscale images, each with resolution of 48 x 48 pixels. 
+
+*Step by step instructions implementation from data setup to deployment coming soon*
 
 
 
@@ -40,9 +42,9 @@ python index.py
 
 # Model
 
-I implemented a 4 layer CNN model and trained for 20 epochs with a learning rate of 0.0005. The model achieved training accuracy of 83.18% and testing accuracy of 60.32%.
+I implemented a Convolutional Neural Network Model with 4 convolutional layers and 2 dense layers. The model was trained for 20 epochs with a learning rate of 0.0005. The model achieved training accuracy of 83.18% and testing accuracy of 60.32%.
 
-![alt text](training_accuracy_plot.png)
+![](training_accuracy_plot.png)
 
 
 ## Source code
