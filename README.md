@@ -10,8 +10,8 @@ The CNN model is trained on the **FER-2013 dataset**, which consists of 35887 gr
 
 ## Table of Contents
 
-1. [Installation] (#Installation)
-2. [Model] (#Model)
+1. [Installation](#Installation)
+2. [Model](#Model)
 
  
 # Installation
